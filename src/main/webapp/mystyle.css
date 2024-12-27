@@ -1,0 +1,74 @@
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px aqua;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Customize the dropdown */
+select {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    appearance: none;
+}
+
+/* Customize the textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Customize submit and reset buttons */
+input[type="submit"],
+input[type="reset"],
+input[type="checkbox"] {
+    background-color: blue;
+    color: bisque;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for buttons */
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="checkbox"]:hover {
+    background-color: darkblue;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
